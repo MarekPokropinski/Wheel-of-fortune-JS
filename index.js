@@ -1,13 +1,11 @@
 function setup() {
     createCanvas(800, 800)
-
     background(220)
-
     textSize(16)
 
     button = createButton('spin')
     button.position(width / 2, height + 20)
-    button.mousePressed(spin);
+    button.mousePressed(spin)
 }
 
 var gimmics = data
